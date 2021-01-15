@@ -1,3 +1,63 @@
 .logo{
-    width: 350px;
+    width: 20rem;
+}
+.nav-margin{
+    margin-left: 37em;
+}
+.nav-back{
+    background-color: #fff9f4;
+}
+.banner01{
+    width: 40rem;
+    margin-right: 2rem;
+}
+.nike{
+    color: #fa804c;
+}
+.my-button {
+    background: blue;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    width: 170px;
+    height: 60px;
+    border: 0px;
+}
+.my-button img {
+    height: 50%;
+}
+.font-s{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.shoes {
+    padding: 12px;
+    border-radius: 21px;
+    margin: 0%;
+    border: 0;
+}
+.shoes-img {
+    background-color: #F1F1F1;
+    margin: auto;
+    padding: 40px;
+    width: 100%;
+    border-radius: 21px;
+    height: 70%;
+}
+.last-photo img {
+    width: 99%;
+    margin-left: 12%;
+}
+.box {
+    background-color: white;
+    border-radius: 13px;
+    margin: 10px;
+}
+.box img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.mar-top{
+    margin-top: 7rem;
 }

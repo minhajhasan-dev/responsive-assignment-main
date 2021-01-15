@@ -4,39 +4,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penguin Fashion</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header style="background-color: #FFFBF0;" class="my-header py-5 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light container">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="Logo & Icon/Logo.png" alt="">
-                </a>
+                <a class="navbar-brand me-auto" href="#"><img class="logo" src="Logo & Icon/Logo.png" alt=""></a>
+
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class=" collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="justify-content-end navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+
+
+                <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link active px-3" aria-current="page" href="#home"><b>Home</b></a>
+                        <a class="nav-link active px-3" href="#product"><b>Product</b></a>
+                        <a class="nav-link active px-3" href="#about"><b>About us</b></a>
+                        <a class="nav-link active px-3" href="#contact"><b>Contact us</b></a>
+                    </div>
                 </div>
             </div>
         </nav>
+        <section class="container pb-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="./Photos/Group 33092.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <h1 class="nike fw-bolder font-s">NIKE REACT</h1>
+                                <h1 class="fw-bolder font-s">INFINITY RUN 2 </h1>
+                                <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</P>
+                                <button class="my-button "> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                    NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
+    <main id="product" class="pb-5">
+        <section class="container">
+            <h2 class="my-5 font-s"> <br> CASUAL SHOES</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col ">
+                    <div class="card h-100 shoes shadow">
+                        <img class="shoes-img" style="padding: 8% 0% ;" src="Photos/image 5.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-lg-between">
+                            <h3 class="nike fs-1"><b>$234</b></h3>
+                            <button class="my-button"> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shoes shadow">
+                        <img class="shoes-img" src="./Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sneakers Skate Shoe </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-lg-between">
+                            <h3 class="nike fs-1"><b>$234</b></h3>
+                            <button class="my-button"> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shoes shadow">
+                        <img class="shoes-img" src="Photos/pngegg 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sneakers Basketball shoe</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-lg-between">
+                            <h3 class="nike fs-1"><b>$234</b></h3>
+                            <button class="my-button"> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="my-5 font-s"> <br>Formal shoes</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col ">
+                    <div class="card h-100 shoes shadow">
+                        <img class="" style="padding: 8% 0% ;" src="Photos/Mask Group.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Prestige High-Cut Leather</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-lg-between">
+                            <h3 class="nike fs-1"><b>$234</b></h3>
+                            <button class="my-button"> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shoes shadow">
+                        <img class="mb-5" src="./Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Slip-On Formal Shoe </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-lg-between">
+                            <h3 class="nike fs-1"><b>$234</b></h3>
+                            <button class="my-button"> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shoes shadow">
+                        <img class="mb-5" src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Slip-On Formal Shoe</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-lg-between">
+                            <h3 class="nike fs-1"><b>$234</b></h3>
+                            <button class="my-button"> <img src="Logo & Icon/shopping-cart 1.png" alt=""> BUY
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="container  mar-top">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-12 box shadow">
+                            <div class="row  my-text">
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <img src="Logo & Icon/image 12.png">
+                                </div>
+                                <div class="col-md-9 mt-3">
+                                    <h5>Find the Perfect Fit</h5>
+                                    <p>Everybody is different, which is why we
+                                        offer styles for every body.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 box shadow">
+                            <div class="row  my-text">
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <img src="Logo & Icon/image 13.png">
+                                </div>
+                                <div class="col-md-9 mt-3">
+                                    <h5>Free Exchanges</h5>
+                                    <p>One of the many reasons you can shop
+                                        with peace of mind.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 box shadow">
+                            <div class="row  my-text">
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <img src="Logo & Icon/image 14.png">
+                                </div>
+                                <div class="col-md-9 mt-3">
+                                    <h5>Contact Our Seller</h5>
+                                    <p>They are here to help you. That's quite
+                                        literally what we pay them for.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 last-photo">
+                    <img src="Logo & Icon/XMLID 1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <section class="container">
+            <div class="container-fluid">
+                <h2 class="my-5 font-s"> <br>Contact Form</h2>
+                <form>
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control" />
+                        <label class="form-label" for="form4Example1">Name</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form4Example2" class="form-control" />
+                        <label class="form-label" for="form4Example2">Email address</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                        <label class="form-label" for="form4Example3">Message</label>
+                    </div>
+
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                        <label class="form-check-label" for="form4Example4">
+                            Send me a copy of this message
+                        </label>
+                    </div>
+                    <button type="submit" class="btn w-100 btn-lg btn-primary btn-block mb-4">Send Message</button>
+                </form>
+                <section class="text-center pb-3">
+                    <small> ©2021. Penguin Fashion. All rights reserved. Minhaj Hasan.</small>
+                </section>
+            </div>
+
+        </section>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
